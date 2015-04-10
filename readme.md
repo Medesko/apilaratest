@@ -6,7 +6,6 @@ ApiLaratest is a simple web application built with laravel 5.
 
 ## api route structure
 
-
 ## Features
 
 - [] User sign In
@@ -15,3 +14,7 @@ ApiLaratest is a simple web application built with laravel 5.
 - [] List users
 - [] Find user
 - [] Delete User
+=======
+## Structure of routes
+
+### License
