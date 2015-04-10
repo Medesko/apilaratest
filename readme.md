@@ -1,9 +1,17 @@
 ## Restfull api PHP Laravel
 
+## Description
+
+ApiLaratest is a simple web application built with laravel 5.
+
 ## api route structure
 
 
-## Contributing
+## Features
 
-### License
-Free https://media0.giphy.com/media/tghHsahSrWTEk/giphy.gif?t=1
+- [] User sign In
+- [] User registration
+- [] Middleware authorization
+- [] List users
+- [] Find user
+- [] Delete User
