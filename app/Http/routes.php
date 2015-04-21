@@ -11,11 +11,18 @@
 |
 */
 
+
 Route::get('/', 'WelcomeController@index');
 
-Route::get('home', 'HomeController@index');
 
-Route::controllers([
-	'auth' => 'Auth\AuthController',
-	'password' => 'Auth\PasswordController',
-]);
+/**
+ * Grouped within an API prefix
+ */
+Route::group(['prefix' => 'api/v1'], function() {
+
+    Route::get('home', 'HomeController@index');
+    Route::controllers([
+        'auth' => 'Auth\AuthController',
+        'password' => 'Auth\PasswordController',
+    ]);
+});
